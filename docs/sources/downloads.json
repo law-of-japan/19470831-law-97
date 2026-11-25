@@ -1,0 +1,44 @@
+[
+  {
+    "file": "kanpo-19470831-1.jpg",
+    "url": "https://dl.ndl.go.jp/api/iiif/2962708/R0000001/full/full/0/default.jpg",
+    "sha256": "f7c13976fbb2226d36501795ddf688ce75ac366d440df3369ad0e7452b827182",
+    "retrieved": "2026-11-19"
+  },
+  {
+    "file": "kanpo-19470831-2.jpg",
+    "url": "https://dl.ndl.go.jp/api/iiif/2962708/R0000002/full/full/0/default.jpg",
+    "sha256": "1e38dec2861653373b5cc7e53243328d64755aeba3db46ef7467530f281d6c71",
+    "retrieved": "2026-11-19"
+  },
+  {
+    "file": "goshomei-1947-3.jpg",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102163258800/iiif/008900146398.jp2/full/max/0/native.jpg",
+    "sha256": "b1388d4f8c09d273983d10c13a162f09c4222c3969604ecc0311b6633d124d90",
+    "retrieved": "2026-11-19"
+  },
+  {
+    "file": "kanpo-19490516-14.jpg",
+    "url": "https://dl.ndl.go.jp/api/iiif/2963240/R0000014/full/full/0/default.jpg",
+    "sha256": "e7e8910065c8bbd51444556dfafe3229cf00f6d1c8f8384064f4c43a7bc867d1",
+    "retrieved": "2026-11-19"
+  },
+  {
+    "file": "kanpo-19490516-15.jpg",
+    "url": "https://dl.ndl.go.jp/api/iiif/2963240/R0000015/full/full/0/default.jpg",
+    "sha256": "17a6429ef749fd2f5d18578b7ca5bcdf5568b985927488e84995dddf7e72338d",
+    "retrieved": "2026-11-19"
+  },
+  {
+    "file": "kanpo-19490531-86.jpg",
+    "url": "https://dl.ndl.go.jp/api/iiif/2963253/R0000086/full/full/0/default.jpg",
+    "sha256": "de1d214b79e61840677414138036baeca564e7bd8de200ae5b59a74188fce2d4",
+    "retrieved": "2026-11-19"
+  },
+  {
+    "file": "kanpo-19490531-88.jpg",
+    "url": "https://dl.ndl.go.jp/api/iiif/2963253/R0000088/full/full/0/default.jpg",
+    "sha256": "53c56a7e08bea9375b7e4c9bba84498ead273ff343b6e030c14e1d30f1f3b9ae",
+    "retrieved": "2026-11-19"
+  }
+]

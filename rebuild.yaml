@@ -1,0 +1,223 @@
+schemaVersion: loj-rebuild/v1alpha1
+record:
+  id: 19470831-law-97
+legacy:
+  repository: https://github.com/law-of-japan/19470831-law-97
+  frozenAt: 7d5d006ea805b2ebb7a6f9a0d24c7904b578befc
+sourceChecks:
+- source: src-kanpo-19470831
+  glyphPreservation: preserved
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1・2コマ
+  note: 2026-11-19取得の画像を閲覧。取得URL・SHA-256はdocs/sources/downloads.json、閲覧範囲は調査記録に記載。1コマ第四條第二号の「の部」は画像の汚れで読めず、御署名原本で読めた字を置いた（GLYPH-06の6）。字体全体の照合は未完了。
+- source: src-goshomei-s22-97
+  glyphPreservation: preserved
+  evidence:
+  - source: src-goshomei-s22-97
+    locator: 3画像 第四條第二号
+  note: '官報画像の汚れで読めない「の部」の確認にだけ使用。「他の部局」と読める（字体注記のillegible・basis: otherSource）。'
+- source: src-kanpo-19490516
+  glyphPreservation: preserved
+  evidence:
+  - source: src-kanpo-19490516
+    locator: 14コマ 公布文、15コマ 附則第一項・第五項
+  note: 2026-11-19取得の画像を閲覧。附則第五項の改正内容の「通氣」は旧字体で印刷されている。
+- source: src-kanpo-19490531
+  glyphPreservation: preserved
+  evidence:
+  - source: src-kanpo-19490531
+    locator: 86コマ 制定文、88コマ 附則第一項
+  note: 全部改正の関係と時点だけを確かめた。新法の本文は収録していない。
+- source: src-shugiin-s22-97
+  glyphPreservation: normalized
+  evidence:
+  - source: src-shugiin-s22-97
+    locator: 全文
+  note: 下書きと、官報で字体を決められない字の仮置き（GLYPH-06の3c）にだけ使用。原典の根拠にしない。第一条の「国民生治」、第四条の「綜合調査」「発迭」等、官報と文言の違う箇所がある。
+mappings:
+- commit: 7d5d006ea805b2ebb7a6f9a0d24c7904b578befc
+  revisions: []
+  verification:
+    state: confirmed
+    reason: リポジトリ作成時のcommitで、本文を含まない（旧master）
+- commit: 731af7399bac3065b21c8a95d182c29018967f65
+  revisions: []
+  verification:
+    state: confirmed
+    reason: README.mdだけの変更で、本文を含まない
+- commit: baf6766a2ef4b5e13a24db3e6edefbb9dcde9f72
+  revisions:
+  - wykk6n1d
+  verification:
+    state: unverified
+    reason: 旧ブランチ19470831_97で制定時の本文を記入したcommit。原典と旧本文の全文・全字体の完全照合は未了。
+- commit: 1fe1f674f2567939639688984e400abec903f85a
+  revisions:
+  - wykk6n1d
+  verification:
+    state: unverified
+    reason: 制定時の附則の書き方を直したcommit。対応する版は変わらない。
+- commit: 616b96a7685473c8c4d400448cf507be2b620f7f
+  revisions:
+  - wykk6n1d
+  verification:
+    state: unverified
+    reason: 制定時の附則の書き方を直したcommit。対応する版は変わらない。
+- commit: 178bb910558876973c12662f69bb60ed0abcc759
+  revisions:
+  - wykk6n1d
+  verification:
+    state: unverified
+    reason: 制定時の附則の書き方を直したcommit。対応する版は変わらない。
+- commit: 56845a7b432c9214a2bc577e860e9098f588f867
+  revisions: []
+  verification:
+    state: confirmed
+    reason: README.mdだけの変更
+- commit: 5dda58405e0e58d60b70278743b9c3f07dabe4f8
+  revisions:
+  - wykk6n1d
+  verification:
+    state: unverified
+    reason: 制定時の本文に他法令へのリンクを加えたcommit。対応する版は変わらない。
+- commit: b801679d640f73d02d56f8d45d762f565bc0f694
+  revisions: []
+  verification:
+    state: confirmed
+    reason: README.mdだけの変更
+- commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+  revisions: []
+  verification:
+    state: confirmed
+    reason: README.mdだけの変更（旧ブランチ19470831_97の先端）
+pending: []
+differences:
+- revision: wykk6n1d
+  class: wording
+  node: 19470831-law-97/main/article/1/paragraph/1
+  recorded: 國民生活
+  legacyText: 国民生治
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: article.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第一條
+  verification:
+    state: confirmed
+- revision: wykk6n1d
+  class: wording
+  node: 19470831-law-97/main/article/4/paragraph/1/item/4
+  recorded: 綜合調整
+  legacyText: 綜合調査
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: article.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第四條第四号
+  verification:
+    state: confirmed
+- revision: wykk6n1d
+  class: wording
+  node: 19470831-law-97/main/article/4/paragraph/1/item/5
+  recorded: 発送
+  legacyText: 発迭
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: article.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第四條第五号
+  verification:
+    state: confirmed
+- revision: wykk6n1d
+  class: wording
+  node: 19470831-law-97/main/article/10/paragraph/1
+  recorded: 掌らしめる。
+  legacyText: 掌らしめる
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: article.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第十條
+  verification:
+    state: confirmed
+- revision: wykk6n1d
+  class: structure
+  node: 19470831-law-97/main/article/4/paragraph/1
+  note: 旧本文は第四條〜第九條の号を箇条書きで書いている。
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: article.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第四條〜第九條
+  verification:
+    state: confirmed
+- revision: wykk6n1d
+  class: structure
+  node: 19470831-law-97/main/article/3/paragraph/1
+  note: 旧本文は第三條の五局の名称を箇条書きで書いている。新しい版では列記（LIST-01）で書いた。
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: article.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第三條
+  verification:
+    state: confirmed
+- revision: wykk6n1d
+  class: structure
+  node: 19470831-law-97/main/article/11
+  note: 旧本文は第十一條・第十二條の項に原典にない番号（「1.」「2.」）を付けている。原典の項には番号がない。
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: article.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第十一條・第十二條
+  verification:
+    state: confirmed
+- revision: wykk6n1d
+  class: structure
+  node: 19470831-law-97/supplement/original
+  note: 旧本文は附則の見出しに法令番号「（昭和二二年八月三一日法律九十七号）」を加え、政令・厚生省官制・労働基準法へのリンクを付けている。原典の見出しは「附　則」だけで、リンクはない。
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: supplementary_provision.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則
+  verification:
+    state: confirmed
+- revision: wykk6n1d
+  class: structure
+  node: 19470831-law-97/supplement/original/article/15/paragraph/1
+  note: 旧本文は附則第十五條の第百條の二を見出しと番号付きの箇条書き（「1.」〜「3.」）で書いている。原典は見出しを立てず、第二項・第三項に番号がない。
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: supplementary_provision.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則第十五條
+  verification:
+    state: confirmed
+- revision: wykk6n1d
+  class: glyph
+  count: 67
+  examples:
+  - 條（旧本文は条）
+  - 屬（旧本文は属）
+  - 與（旧本文は与）
+  legacy:
+    commit: 125a1adb090b5548418cb243e71c56d951c3f51c
+    path: article.md
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ
+  verification:
+    state: unverified
+    reason: '字体を照合していない字（text.glyphCheck: unverified）は数えていない。仮置きした字（險／険等）も数えていない'

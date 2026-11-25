@@ -1,0 +1,221 @@
+schemaVersion: loj-history/v1alpha1
+record:
+  id: 19470831-law-97
+  label: 昭和二十二年法律第九十七号
+sources:
+- id: src-kanpo-19470831
+  kind: promulgation
+  title: 官報 号外 昭和22年8月31日（国立国会図書館デジタルコレクション pid/2962708）
+  uri: https://dl.ndl.go.jp/pid/2962708
+  glyphPreservation: preserved
+  fixed: docs/sources/kanpo-19470831-1.jpg SHA-256 f7c13976fbb2226d36501795ddf688ce75ac366d440df3369ad0e7452b827182; docs/sources/kanpo-19470831-2.jpg SHA-256 1e38dec2861653373b5cc7e53243328d64755aeba3db46ef7467530f281d6c71
+- id: src-goshomei-s22-97
+  kind: other
+  title: 労働省設置法・御署名原本・昭和二十二年・法律第九七号（国立公文書館）
+  uri: https://www.digital.archives.go.jp/file/132832
+  glyphPreservation: preserved
+  fixed: docs/sources/goshomei-1947-3.jpg SHA-256 b1388d4f8c09d273983d10c13a162f09c4222c3969604ecc0311b6633d124d90
+- id: src-kanpo-19490516
+  kind: promulgation
+  title: 官報 号外 昭和24年5月16日 鉱山保安法（国立国会図書館デジタルコレクション pid/2963240）
+  uri: https://dl.ndl.go.jp/pid/2963240
+  glyphPreservation: preserved
+  fixed: docs/sources/kanpo-19490516-14.jpg SHA-256 e7e8910065c8bbd51444556dfafe3229cf00f6d1c8f8384064f4c43a7bc867d1; docs/sources/kanpo-19490516-15.jpg SHA-256 17a6429ef749fd2f5d18578b7ca5bcdf5568b985927488e84995dddf7e72338d
+- id: src-kanpo-19490531
+  kind: promulgation
+  title: 官報 号外第61号 昭和24年5月31日 労働省設置法（昭和二十四年法律第百六十二号）（国立国会図書館デジタルコレクション pid/2963253）
+  uri: https://dl.ndl.go.jp/pid/2963253
+  glyphPreservation: preserved
+  fixed: docs/sources/kanpo-19490531-86.jpg SHA-256 de1d214b79e61840677414138036baeca564e7bd8de200ae5b59a74188fce2d4; docs/sources/kanpo-19490531-88.jpg SHA-256 53c56a7e08bea9375b7e4c9bba84498ead273ff343b6e030c14e1d30f1f3b9ae
+- id: src-shugiin-s22-97
+  kind: other
+  title: 衆議院 制定法律情報 法律第九十七号（昭二二・八・三一）（下書きだけに使用）
+  uri: https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/houritsu/00119470831097.htm
+  glyphPreservation: normalized
+relations:
+- id: rel-s24-70
+  type: amends
+  from:
+    id: 19490516-law-70
+    label: 昭和二十四年法律第七十号
+  promulgated:
+    state: date
+    value: '1949-05-16'
+    raw: 昭和二十四年五月十六日
+    precision: day
+    evidence:
+    - source: src-kanpo-19490516
+      locator: 14コマ 8頁 公布文の日付
+    verification:
+      state: confirmed
+  evidence:
+  - source: src-kanpo-19490516
+    locator: 15コマ 11頁 附則第五項
+  verification:
+    state: confirmed
+  status: active
+  items:
+  - id: i1
+    scope:
+      text: 第六條第二号及び第三号を次のように改める。
+    effective:
+      state: derived
+      rule: 公布の日から
+      base:
+        state: date
+        value: '1949-05-16'
+        raw: 昭和二十四年五月十六日
+        precision: day
+        evidence:
+        - source: src-kanpo-19490516
+          locator: 14コマ 8頁 公布文の日付
+        verification:
+          state: confirmed
+      calc:
+        op: sameDay
+      value: '1949-05-16'
+      raw: 但し、第一條から第三條まで、第三十二條から第三十四條まで、第三十九條から第五十四條まで及び附則第五項から第十項までの規定は、公布の日から施行する。
+      evidence:
+      - source: src-kanpo-19490516
+        locator: 15コマ 11頁 附則第一項ただし書
+      verification:
+        state: confirmed
+    evidence:
+    - source: src-kanpo-19490516
+      locator: 15コマ 11頁 附則第五項
+    verification:
+      state: confirmed
+- id: rel-s24-162
+  type: totallyRevises
+  from:
+    id: ex0typ1a26
+    label: 昭和二十四年法律第百六十二号
+  promulgated:
+    state: date
+    value: '1949-05-31'
+    raw: 昭和二十四年五月三十一日
+    precision: day
+    evidence:
+    - source: src-kanpo-19490531
+      locator: 86コマ 1頁 公布文の日付
+    verification:
+      state: confirmed
+  evidence:
+  - source: src-kanpo-19490531
+    locator: 86コマ 1頁 制定文「労働省設置法（昭和二十二年法律第九十七号）の全部を改正する。」
+  verification:
+    state: confirmed
+  status: active
+  items:
+  - id: i1
+    scope:
+      text: 全部
+    effective:
+      state: date
+      value: '1949-06-01'
+      raw: この法律は、昭和二十四年六月一日から施行する。
+      precision: day
+      evidence:
+      - source: src-kanpo-19490531
+        locator: 88コマ 4頁 附則第一項
+      verification:
+        state: confirmed
+    evidence:
+    - source: src-kanpo-19490531
+      locator: 86コマ 1頁 制定文
+    verification:
+      state: confirmed
+revisions:
+- id: wykk6n1d
+  label: 制定
+  origin: enactment
+  effective:
+    state: date
+    value: '1947-09-01'
+    raw: 昭和二十二年九月一日
+    precision: day
+    delegation:
+      raw: この法律の施行期日は、その成立の日から三十日を超えない期間内において、政令で、これを定める。
+      evidence:
+      - source: src-kanpo-19470831
+        locator: 1コマ 1頁 附則第十三條
+    determinedBy:
+      record:
+        id: unregistered
+        label: 昭和二十二年政令第百六十九号
+      evidence:
+      - source: src-kanpo-19470831
+        locator: 2コマ 2頁 政令第百六十九号「労働省設置法は、昭和二十二年九月一日から、これを施行する。」
+    evidence:
+    - source: src-kanpo-19470831
+      locator: 2コマ 2頁 政令第百六十九号
+    verification:
+      state: confirmed
+  applicability:
+    state: unsurveyed
+  text:
+    status: complete
+    sources:
+    - source: src-kanpo-19470831
+      locator: 1コマ 1頁（本則・附則第十三條〜第十五條）、2コマ 2頁 冒頭（附則第十五條の末尾）
+    - source: src-goshomei-s22-97
+      locator: 3画像 第四條第二号（官報画像の汚れの箇所の確認）
+    glyphCheck: unverified
+    glyphNotes: versions/wykk6n1d/glyphs.yaml
+    correctionsSurveyed:
+      state: unsurveyed
+      reason: 昭和22年8月31日以後の官報の正誤欄を調べていない。
+  status: active
+- id: grst9hg0
+  label: 昭和24年法律第70号（鉱山保安法）附則第五項による改正後
+  basedOn: wykk6n1d
+  basis:
+  - relation: rel-s24-70
+    items:
+    - i1
+  effective:
+    state: derived
+    rule: 公布の日から
+    base:
+      state: date
+      value: '1949-05-16'
+      raw: 昭和二十四年五月十六日
+      precision: day
+      evidence:
+      - source: src-kanpo-19490516
+        locator: 14コマ 8頁 公布文の日付
+      verification:
+        state: confirmed
+    calc:
+      op: sameDay
+    value: '1949-05-16'
+    raw: 但し、第一條から第三條まで、第三十二條から第三十四條まで、第三十九條から第五十四條まで及び附則第五項から第十項までの規定は、公布の日から施行する。
+    evidence:
+    - source: src-kanpo-19490516
+      locator: 15コマ 11頁 附則第一項ただし書
+    verification:
+      state: confirmed
+  applicability:
+    state: unsurveyed
+  text:
+    status: complete
+    sources:
+    - source: src-kanpo-19470831
+      locator: 1コマ 1頁（改正されなかった部分）、2コマ 2頁 冒頭
+    - source: src-goshomei-s22-97
+      locator: 3画像 第四條第二号（官報画像の汚れの箇所の確認）
+    - source: src-kanpo-19490516
+      locator: 15コマ 11頁 附則第五項（第六條第二号・第三号）
+    glyphCheck: unverified
+    glyphNotes: versions/grst9hg0/glyphs.yaml
+    correctionsSurveyed:
+      state: unsurveyed
+      reason: 昭和22年8月31日・昭和24年5月16日以後の官報の正誤欄を調べていない。
+  status: active
+termination:
+- type: totallyRevised
+  relation: rel-s24-162
+coverage:
+  state: unconfirmed
+  knownGaps:
+  - text: 国立国会図書館の日本法令索引の法令沿革（改正1件、全部改正1件）を手がかりにした。沿革にない改正の有無は調べていない。

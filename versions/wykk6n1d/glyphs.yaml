@@ -1,0 +1,238 @@
+schemaVersion: loj-glyphs/v1alpha1
+revision: wykk6n1d
+notes:
+- id: g1
+  node: 19470831-law-97/main/article/2/paragraph/1
+  offset: 43
+  recorded: 険
+  kind: ambiguous
+  candidates:
+  - 険
+  - 險
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第二條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 第二条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g2
+  node: 19470831-law-97/main/article/2/paragraph/1
+  offset: 100
+  recorded: 険
+  kind: ambiguous
+  candidates:
+  - 険
+  - 險
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第二條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 第二条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g3
+  node: 19470831-law-97/main/article/4/paragraph/1/item/2
+  offset: 22
+  recorded: の部
+  kind: illegible
+  basis: otherSource
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 1頁 第四條第二号。画像の汚れで「の部」の2字が隠れている（「の」は上端だけが見える）
+  - source: src-goshomei-s22-97
+    locator: 3画像 第四條第二号「他の部局」
+  verification:
+    state: unverified
+    reason: 国立国会図書館デジタルコレクションの官報画像の汚れと考えられるが、原因は確かめていない。「の」の見えている上端は御署名原本の字と矛盾しない。同じ号の官報の別の複製では確かめていない。
+- id: g4
+  node: 19470831-law-97/main/article/6/paragraph/1/item/4
+  offset: 19
+  recorded: 険
+  kind: ambiguous
+  candidates:
+  - 険
+  - 險
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第六條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 第六条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g5
+  node: 19470831-law-97/main/article/7/paragraph/1/item/2
+  offset: 2
+  recorded: 児
+  kind: ambiguous
+  candidates:
+  - 児
+  - 兒
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第七條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 第七条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g6
+  node: 19470831-law-97/main/article/8/paragraph/1/item/3
+  offset: 5
+  recorded: 険
+  kind: ambiguous
+  candidates:
+  - 険
+  - 險
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 第八條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 第八条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g7
+  node: 19470831-law-97/supplement/original/article/14/paragraph/1
+  offset: 37
+  recorded: 険
+  kind: ambiguous
+  candidates:
+  - 険
+  - 險
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則第十四條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 附則第十四条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g8
+  node: 19470831-law-97/supplement/original/article/14/paragraph/1
+  offset: 137
+  recorded: 険
+  kind: ambiguous
+  candidates:
+  - 険
+  - 險
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則第十四條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 附則第十四条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g9
+  node: 19470831-law-97/supplement/original/article/14/paragraph/1
+  offset: 149
+  recorded: 険
+  kind: ambiguous
+  candidates:
+  - 険
+  - 險
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則第十四條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 附則第十四条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g10
+  node: 19470831-law-97/supplement/original/article/14/paragraph/1
+  offset: 159
+  recorded: 険
+  kind: ambiguous
+  candidates:
+  - 険
+  - 險
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則第十四條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 附則第十四条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g11
+  node: 19470831-law-97/supplement/original/article/15/paragraph/1/amendment/1/content/article/100-2/paragraph/1
+  offset: 49
+  recorded: 廃
+  kind: ambiguous
+  candidates:
+  - 廃
+  - 廢
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則第十五條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 附則第十五条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g12
+  node: 19470831-law-97/supplement/original/article/15/paragraph/1/amendment/1/content/article/100-2/paragraph/1
+  offset: 53
+  recorded: 釈
+  kind: ambiguous
+  candidates:
+  - 釈
+  - 釋
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則第十五條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 附則第十五条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g13
+  node: 19470831-law-97/supplement/original/article/15/paragraph/1/amendment/1/content/article/100-2/paragraph/2
+  offset: 77
+  recorded: 覧
+  kind: ambiguous
+  candidates:
+  - 覧
+  - 覽
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則第十五條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 附則第十五条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。
+- id: g14
+  node: 19470831-law-97/supplement/original/article/15/paragraph/1/amendment/1/content/article/100-2/paragraph/2
+  offset: 83
+  recorded: 覧
+  kind: ambiguous
+  candidates:
+  - 覧
+  - 覽
+  basis: provisional
+  evidence:
+  - source: src-kanpo-19470831
+    locator: 1コマ 附則第十五條の該当箇所（制定時）
+  - source: src-shugiin-s22-97
+    locator: 附則第十五条（下書きの字）
+  verification:
+    state: unverified
+    reason: 官報の画像の解像度では新旧の字体を決められない。下書きの資料の字を仮に置いた（GLYPH-06の3c）。御署名原本との照合は未実施。

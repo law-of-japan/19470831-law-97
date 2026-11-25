@@ -1,0 +1,16 @@
+schemaVersion: loj/v1alpha2
+law:
+  id: 19470831-law-97
+  title: 労働省設置法
+  type: act
+  number: 法律第九十七号
+  promulgatedAt: '1947-08-31'
+  language: ja
+supplements:
+- key: original
+  title: 附　則
+documents:
+- path: main.md
+  parent: main
+- path: supplement.md
+  parent: supplement/original

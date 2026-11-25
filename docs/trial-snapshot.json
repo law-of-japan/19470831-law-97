@@ -1,0 +1,26 @@
+{
+  "19470831-law-97": {
+    "branch": "trial/labor-ministry-20261119",
+    "base": "7d5d006ea805b2ebb7a6f9a0d24c7904b578befc"
+  },
+  "loj-registry": {
+    "branch": "trial/labor-ministry-20261119",
+    "base": "125961a38d3724be385fb567ba7eb438c412cce9"
+  },
+  "loj-spec": "bd7718aaec3a92421c1ffcd987693ba69fc0777e",
+  "loj-validator": "10786930733d650bda6813da4320ff8dbd398dc6",
+  "legacyRefs": [
+    "7d5d006ea805b2ebb7a6f9a0d24c7904b578befc refs/heads/master",
+    "125a1adb090b5548418cb243e71c56d951c3f51c refs/remotes/origin/19470831_97",
+    "7d5d006ea805b2ebb7a6f9a0d24c7904b578befc refs/remotes/origin/HEAD",
+    "7d5d006ea805b2ebb7a6f9a0d24c7904b578befc refs/remotes/origin/master"
+  ],
+  "revisions": {
+    "enactment": "wykk6n1d",
+    "amendment": "grst9hg0"
+  },
+  "relatedRecords": {
+    "鉱山保安法": "19490516-law-70",
+    "労働省設置法（昭和二十四年法律第百六十二号）": "ex0typ1a26"
+  }
+}

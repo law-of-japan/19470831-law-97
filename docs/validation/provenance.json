@@ -1,0 +1,6 @@
+{
+  "binarySha256": "8e25d1be7bc629852e6c967e61220c1830aa07c6d296e7fde5c14a545de8b5cb",
+  "validatorCommit": "10786930733d650bda6813da4320ff8dbd398dc6",
+  "specCommit": "bd7718aaec3a92421c1ffcd987693ba69fc0777e",
+  "note": "Directory checks, not canonical-commit certification. The binary hash identifies the executable only."
+}

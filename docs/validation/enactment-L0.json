@@ -1,0 +1,14 @@
+{
+  "diagnostics": [],
+  "results": [
+    {
+      "check": "L0",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "",
+    "path": "19470831-law-97/versions/wykk6n1d\\law.yaml",
+    "repository": "19470831-law-97/versions/wykk6n1d"
+  }
+}

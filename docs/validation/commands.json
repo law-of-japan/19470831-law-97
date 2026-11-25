@@ -1,0 +1,237 @@
+[
+  {
+    "name": "enactment-L0",
+    "command": [
+      "loj-validator",
+      "check",
+      "19470831-law-97/versions/wykk6n1d",
+      "--level",
+      "L0",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L0",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "name": "enactment-L1",
+    "command": [
+      "loj-validator",
+      "check",
+      "19470831-law-97/versions/wykk6n1d",
+      "--level",
+      "L1",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L1",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "name": "amendment-L0",
+    "command": [
+      "loj-validator",
+      "check",
+      "19470831-law-97/versions/grst9hg0",
+      "--level",
+      "L0",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L0",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "name": "amendment-L1",
+    "command": [
+      "loj-validator",
+      "check",
+      "19470831-law-97/versions/grst9hg0",
+      "--level",
+      "L1",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L1",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "name": "history-L3",
+    "command": [
+      "loj-validator",
+      "check",
+      "19470831-law-97",
+      "--level",
+      "L3",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "category": "historyStructure",
+        "check": "L3",
+        "result": "pass"
+      },
+      {
+        "category": "evidence",
+        "check": "L3",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "name": "rebuild",
+    "command": [
+      "loj-validator",
+      "check",
+      "19470831-law-97",
+      "--check",
+      "rebuild",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "rebuild",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "name": "registry",
+    "command": [
+      "loj-validator",
+      "check",
+      "loj-registry",
+      "--check",
+      "registry",
+      "--registration-space",
+      "law-of-japan",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "registry",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "name": "19490516-law-70-L3",
+    "command": [
+      "loj-validator",
+      "check",
+      "19470831-law-97/docs/related/19490516-law-70",
+      "--level",
+      "L3",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "category": "historyStructure",
+        "check": "L3",
+        "result": "pass"
+      },
+      {
+        "category": "evidence",
+        "check": "L3",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "name": "ex0typ1a26-L3",
+    "command": [
+      "loj-validator",
+      "check",
+      "19470831-law-97/docs/related/ex0typ1a26",
+      "--level",
+      "L3",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "category": "historyStructure",
+        "check": "L3",
+        "result": "pass"
+      },
+      {
+        "category": "evidence",
+        "check": "L3",
+        "result": "pass"
+      }
+    ]
+  },
+  {
+    "name": "relations-L4",
+    "command": [
+      "loj-validator",
+      "check",
+      "--registry",
+      "loj-registry",
+      "--repository",
+      "19470831-law-97",
+      "--repository",
+      "19470831-law-97/docs/related/19490516-law-70",
+      "--repository",
+      "19470831-law-97/docs/related/ex0typ1a26",
+      "--level",
+      "L4",
+      "--registration-space",
+      "law-of-japan",
+      "--format",
+      "json"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "category": "relationResolution",
+        "check": "L4",
+        "result": "pass"
+      },
+      {
+        "category": "relationConsistency",
+        "check": "L4",
+        "result": "pass"
+      },
+      {
+        "category": "timeConsistency",
+        "check": "L4",
+        "result": "pass"
+      },
+      {
+        "category": "displayConsistency",
+        "check": "L4",
+        "result": "pass"
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "diagnostics": [],
+  "results": [
+    {
+      "category": "historyStructure",
+      "check": "L3",
+      "result": "pass"
+    },
+    {
+      "category": "evidence",
+      "check": "L3",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "",
+    "repository": "19470831-law-97/docs/related/ex0typ1a26"
+  }
+}

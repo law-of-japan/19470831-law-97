@@ -1,0 +1,16 @@
+{
+  "changedItems": [
+    "19470831-law-97/main/article/6/paragraph/1/item/2",
+    "19470831-law-97/main/article/6/paragraph/1/item/3"
+  ],
+  "unchangedOtherMainText": true,
+  "unchangedSupplement": true,
+  "unchangedManifest": true,
+  "glyphNotesSameExceptRevision": true,
+  "sourceHashesMatch": true,
+  "legacyRefsUnchanged": true,
+  "replacedItems": {
+    "2": "二　産業安全に関する事項（鉱山における保安に関する事項を除く。）\n",
+    "3": "三　労働衛生に関する事項（鉱山における通氣及び災害時の救護に関する事項を除く。）\n"
+  }
+}

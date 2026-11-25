@@ -1,0 +1,47 @@
+{
+  "lawHead": "af64e5aeaf04ee479a581c834d4c24c7920ce8d6",
+  "registryHead": "e746351606b8015bf83b005b2703d89488a3c9a6",
+  "trialTip": "4e294c30f25f8da7dcb4a1fb899f346ffeb34571",
+  "dataSameAsTrial": {
+    "history.yaml": true,
+    "rebuild.yaml": true,
+    "versions": true,
+    ".gitattributes": true,
+    "docs/sources": true
+  },
+  "filesChangedFromTrial": [
+    ".github/workflows/validate.yml",
+    "README.md",
+    "docs/related/19490516-law-70/history.yaml",
+    "docs/related/ex0typ1a26/history.yaml"
+  ],
+  "fileModes": [
+    "100644"
+  ],
+  "changedItems": [
+    "19470831-law-97/main/article/6/paragraph/1/item/2",
+    "19470831-law-97/main/article/6/paragraph/1/item/3"
+  ],
+  "sourceHashesMatch": true,
+  "registryFixedCitations": [
+    {
+      "record": "19470831-law-97",
+      "file": "kanpo-19470831-1.jpg"
+    },
+    {
+      "record": "19490516-law-70",
+      "file": "kanpo-19490516-14.jpg"
+    },
+    {
+      "record": "ex0typ1a26",
+      "file": "kanpo-19490531-86.jpg"
+    }
+  ],
+  "registryDiffFromTrialLimited": true,
+  "legacyRefsUnchanged": {
+    "refs/heads/master": "7d5d006ea805b2ebb7a6f9a0d24c7904b578befc",
+    "refs/remotes/origin/master": "7d5d006ea805b2ebb7a6f9a0d24c7904b578befc",
+    "refs/remotes/origin/19470831_97": "125a1adb090b5548418cb243e71c56d951c3f51c",
+    "refs/heads/trial/labor-ministry-20261119": "4e294c30f25f8da7dcb4a1fb899f346ffeb34571"
+  }
+}

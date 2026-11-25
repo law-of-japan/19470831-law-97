@@ -1,0 +1,14 @@
+{
+  "diagnostics": [],
+  "results": [
+    {
+      "check": "L0",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "",
+    "path": "<scratch>\\law\\versions\\grst9hg0\\law.yaml",
+    "repository": "<scratch>\\law\\versions\\grst9hg0"
+  }
+}

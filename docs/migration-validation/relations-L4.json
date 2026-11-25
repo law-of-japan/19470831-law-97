@@ -1,0 +1,46 @@
+{
+  "diagnostics": [],
+  "references": [
+    {
+      "from": "loj:law-of-japan/19470831-law-97",
+      "result": "resolved",
+      "target": "loj:law-of-japan/19490516-law-70"
+    },
+    {
+      "from": "loj:law-of-japan/19470831-law-97",
+      "result": "resolved",
+      "target": "loj:law-of-japan/19470831-law-97"
+    },
+    {
+      "from": "loj:law-of-japan/19470831-law-97",
+      "result": "resolved",
+      "target": "loj:law-of-japan/ex0typ1a26"
+    }
+  ],
+  "results": [
+    {
+      "category": "relationResolution",
+      "check": "L4",
+      "result": "pass"
+    },
+    {
+      "category": "relationConsistency",
+      "check": "L4",
+      "result": "pass"
+    },
+    {
+      "category": "timeConsistency",
+      "check": "L4",
+      "result": "pass"
+    },
+    {
+      "category": "displayConsistency",
+      "check": "L4",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "",
+    "repository": "<scratch>\\registry"
+  }
+}

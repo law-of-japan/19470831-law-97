@@ -7,7 +7,7 @@
 
 各版の字体照合はunverified、収録範囲はunconfirmed、適用関係はunsurveyedです。官報で字体を決められなかった13か所は仮に置いた字で、字体注記に`basis: provisional`として記録しています。官報正誤は調べていません。
 
-[試行結果](docs/trial-result.md)・[履歴](history.yaml)・[再構築報告](rebuild.yaml)。
+[移行の記録](docs/migration-review-2026-11-25.md)・[試行結果](docs/trial-result.md)・[履歴](history.yaml)・[再構築報告](rebuild.yaml)。
 
 [登録台帳](https://github.com/law-of-japan/loj-registry)で、このRecordと関係するRecordを解決します。固定参照にはmainのコミットの完全SHAを使用してください。
 

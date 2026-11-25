@@ -1,0 +1,13 @@
+{
+  "diagnostics": [],
+  "results": [
+    {
+      "check": "change",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "e746351606b8015bf83b005b2703d89488a3c9a6",
+    "repository": "<scratch>\\registry.bundle"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "diagnostics": [],
+  "results": [
+    {
+      "check": "change",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "af64e5aeaf04ee479a581c834d4c24c7920ce8d6",
+    "repository": "<scratch>\\law.bundle"
+  }
+}

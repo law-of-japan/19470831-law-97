@@ -1,0 +1,227 @@
+[
+  {
+    "name": "enactment-L0",
+    "command": [
+      "loj-validator",
+      "check",
+      "<scratch>\\law\\versions\\wykk6n1d",
+      "--level",
+      "L0"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L0",
+        "category": null,
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  },
+  {
+    "name": "enactment-L1",
+    "command": [
+      "loj-validator",
+      "check",
+      "<scratch>\\law\\versions\\wykk6n1d",
+      "--level",
+      "L1"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L1",
+        "category": null,
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  },
+  {
+    "name": "amendment-L0",
+    "command": [
+      "loj-validator",
+      "check",
+      "<scratch>\\law\\versions\\grst9hg0",
+      "--level",
+      "L0"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L0",
+        "category": null,
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  },
+  {
+    "name": "amendment-L1",
+    "command": [
+      "loj-validator",
+      "check",
+      "<scratch>\\law\\versions\\grst9hg0",
+      "--level",
+      "L1"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L1",
+        "category": null,
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  },
+  {
+    "name": "history-L3",
+    "command": [
+      "loj-validator",
+      "check",
+      "<scratch>\\law",
+      "--level",
+      "L3"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L3",
+        "category": "historyStructure",
+        "result": "pass",
+        "diagnostics": 0
+      },
+      {
+        "check": "L3",
+        "category": "evidence",
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  },
+  {
+    "name": "rebuild",
+    "command": [
+      "loj-validator",
+      "check",
+      "<scratch>\\law",
+      "--check",
+      "rebuild"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "rebuild",
+        "category": null,
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  },
+  {
+    "name": "registry",
+    "command": [
+      "loj-validator",
+      "check",
+      "<scratch>\\registry",
+      "--check",
+      "registry",
+      "--registration-space",
+      "law-of-japan"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "registry",
+        "category": null,
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  },
+  {
+    "name": "relations-L4",
+    "command": [
+      "loj-validator",
+      "check",
+      "--registry",
+      "<scratch>\\registry",
+      "--repository",
+      "<scratch>\\law",
+      "--level",
+      "L4",
+      "--registration-space",
+      "law-of-japan"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "L4",
+        "category": "relationResolution",
+        "result": "pass",
+        "diagnostics": 0
+      },
+      {
+        "check": "L4",
+        "category": "relationConsistency",
+        "result": "pass",
+        "diagnostics": 0
+      },
+      {
+        "check": "L4",
+        "category": "timeConsistency",
+        "result": "pass",
+        "diagnostics": 0
+      },
+      {
+        "check": "L4",
+        "category": "displayConsistency",
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  },
+  {
+    "name": "law-change",
+    "command": [
+      "loj-validator",
+      "check",
+      "<scratch>\\law.bundle",
+      "--head",
+      "af64e5aeaf04ee479a581c834d4c24c7920ce8d6"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "change",
+        "category": null,
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  },
+  {
+    "name": "registry-change",
+    "command": [
+      "loj-validator",
+      "check",
+      "<scratch>\\registry.bundle",
+      "--repository-kind",
+      "registry",
+      "--base",
+      "125961a38d3724be385fb567ba7eb438c412cce9",
+      "--head",
+      "e746351606b8015bf83b005b2703d89488a3c9a6"
+    ],
+    "exitCode": 0,
+    "results": [
+      {
+        "check": "change",
+        "category": null,
+        "result": "pass",
+        "diagnostics": 0
+      }
+    ]
+  }
+]

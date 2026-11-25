@@ -1,0 +1,8 @@
+{
+  "lawCommit": "af64e5aeaf04ee479a581c834d4c24c7920ce8d6",
+  "registryCommit": "e746351606b8015bf83b005b2703d89488a3c9a6",
+  "validatorCommit": "ba890a8fda8205dacad8869a15e623a283614349",
+  "specCommit": "728b347cc5e01d1c1f2ebb918e86e077089c5634",
+  "binarySha256": "a19c4adc26a54f029ed7e1a6986ecb9882ec11f8a9c7d2a15c6fe0646bffa675",
+  "note": "Checks of committed trees before publication. Format checks do not prove agreement with the sources."
+}
